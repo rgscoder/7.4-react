@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+.fashion-blog {
+  font-family: sans-serif;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header, main, footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: rgb(0, 0, 0);
+  border-left: 5px solid lightgray;
+  min-height: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+img {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list {
+  padding: 0px;
+  list-style-type: none;
+  align-self: left;
+}
+
+.list-items {
+  display:flex;
+  justify-content: space-between;
+}
+
+.headnav {
+ color: lightgray;
+ font-size: 20px;
+}
+
+.footnav {
+  color: tomato;
+}
+
+article {
+margin-bottom: 4rem;
+border-bottom: 1px solid lightgray;
+padding-bottom: 2rem;
+}
+
+
+
+.continue {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: right;
+  font-weight: bold;
+  color: tomato;
 }
 
-.App-link {
-  color: #61dafb;
+.para1::first-letter, .para2::first-letter {
+  font-size: 5rem;
+  color: lightgray;
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.para1, .para2 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+#copyright {
+  color: lightgray;
+  font-size: smaller;
+}
+
+
+#text-gray {
+  color: rgb(96, 94, 94);
+}
+
+main {
+  margin-bottom: -30px;
+  padding-bottom: none;
+}
+footer {
+  margin-top: 0px;
+}
+
+h1 {
+  color: tomato;
+  font-weight: lighter;
+  font-size: 48px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: x-large;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: x-large;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-weight: lighter;
+  font-size: xx-large;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
